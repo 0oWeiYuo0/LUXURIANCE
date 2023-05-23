@@ -801,11 +801,6 @@ footer {
       }
 
       > .hero-container {
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
         // 排序更改垂直排序
         display: flex;
         flex-direction: column;
@@ -906,6 +901,7 @@ footer {
               font-size: 16pt;
               text-align: center;
               line-height: 64px;
+              width: 80%;
             }
           }
         }
