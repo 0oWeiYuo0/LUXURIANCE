@@ -441,9 +441,35 @@ footer > .footerFormat > .copyright {
   display: flex;
   justify-content: space-between;
 }
+.groupInformation > .search > .searchlist > .searchBtn {
+  width: 50%;
+}
+.groupInformation > .search > .searchlist > .searchBtn > .searchbutton {
+  width: 15%;
+  display: inline-block;
+  transition: all 0.5s ease-in-out;
+}
+.groupInformation > .search > .searchlist > .searchBtn > .searchbutton:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
+  font-size: 12pt;
+  color: white;
+}
 .groupInformation > .search > .searchlist > .searchInput {
+  width: 50%;
   display: flex;
   justify-content: flex-end;
+}
+.groupInformation > .search > .searchlist > .searchInput > input {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+.groupInformation > .search > .searchlist > .searchInput > button {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .groupInformation > .groupInformationTitle {
   padding-top: 60px;

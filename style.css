@@ -6,10 +6,6 @@
   margin: 10px;
 }
 
-.serchbuttonword{
-  color: white;
-  font-size: 10pt;
-}
 
 .ImageAndInfo{
   display: flex;
@@ -45,20 +41,8 @@ width: 130%;
   gap: 70px;
 }
 
-.serch .serchbutton{
-  display: inline-block;
-}
-
-.serch .serchbutton:hover{
-  background-color: #ffffff;
-  color: black;
-}
 .search-container {
   display: flex;
-}
-
-.search-input, .search-button {
-  height: 36px; /* 自定義高度，可根據需要調整 */
 }
 
 .search-input {
