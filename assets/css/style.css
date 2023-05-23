@@ -661,6 +661,10 @@ footer > .footerFormat > .copyright {
   }
   .banner > #hero > .hero-container > .logo {
     margin-left: 0;
+    width: 50%;
+  }
+  .banner > #hero > .hero-container > .logo > img {
+    width: 90%;
   }
   .banner > #hero > .hero-container > .info {
     padding-right: 0;

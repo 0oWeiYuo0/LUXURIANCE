@@ -812,6 +812,10 @@ footer {
         > .logo {
           // 取消margin
           margin-left: 0;
+          width: 50%;
+          > img {
+            width: 90%;
+          }
         }
 
         > .info {
