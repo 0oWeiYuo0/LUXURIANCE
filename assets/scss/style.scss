@@ -100,7 +100,8 @@ footer {
   }
 }
 
-//Banner
+
+// 共用 Banner
 .banner {
   >#hero {
     width: 100%;
@@ -190,6 +191,34 @@ footer {
             border: 2px solid #4eb478;
           }
         }
+      }
+    }
+  }
+}
+
+// 共用 聯絡我們 aboutUs
+.aboutUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+
+  >.format {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+
+    >.followBtn {
+      text-decoration: none;
+      color: black;
+      padding: 1rem 3rem;
+      border: 1px solid #4eb478;
+      transition: all .5s ease-in-out;
+
+      &:hover {
+        background-color: #4eb478;
+        color: white;
       }
     }
   }
@@ -331,32 +360,32 @@ footer {
     }
   }
 
-  >.aboutUs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 60px;
+  // >.aboutUs {
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   margin-bottom: 60px;
 
-    >.format {
-      width: 80%;
-      display: flex;
-      justify-content: center;
+  //   >.format {
+  //     width: 80%;
+  //     display: flex;
+  //     justify-content: center;
 
-      >.followBtn {
-        text-decoration: none;
-        color: black;
-        padding: 1rem 3rem;
-        border: 1px solid #4eb478;
-        transition: all .5s ease-in-out;
+  //     >.followBtn {
+  //       text-decoration: none;
+  //       color: black;
+  //       padding: 1rem 3rem;
+  //       border: 1px solid #4eb478;
+  //       transition: all .5s ease-in-out;
 
-        &:hover {
-          background-color: #4eb478;
-          color: white;
-        }
-      }
-    }
-  }
+  //       &:hover {
+  //         background-color: #4eb478;
+  //         color: white;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 .exhibition {
@@ -521,35 +550,35 @@ footer {
   >.map {
     display: flex;
     justify-content: center;
-    padding: 60px 0;
+    padding-top: 60px;
   }
 
-  >.aboutUs {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 60px;
+  // >.aboutUs {
+  //   width: 100%;
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  //   margin-bottom: 60px;
 
-    >.format {
-      width: 80%;
-      display: flex;
-      justify-content: center;
+  //   >.format {
+  //     width: 80%;
+  //     display: flex;
+  //     justify-content: center;
 
-      >.followBtn {
-        text-decoration: none;
-        color: black;
-        padding: 1rem 3rem;
-        border: 1px solid #4eb478;
-        transition: all .5s ease-in-out;
+  //     >.followBtn {
+  //       text-decoration: none;
+  //       color: black;
+  //       padding: 1rem 3rem;
+  //       border: 1px solid #4eb478;
+  //       transition: all .5s ease-in-out;
 
-        &:hover {
-          background-color: #4eb478;
-          color: white;
-        }
-      }
-    }
-  }
+  //       &:hover {
+  //         background-color: #4eb478;
+  //         color: white;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 .groupInformation {
