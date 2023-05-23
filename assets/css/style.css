@@ -706,6 +706,9 @@ footer > .footerFormat > .copyright {
   .index > .placeInOut > .format > .info > div {
     padding: 2rem 1rem;
   }
+  .index > .placeInOut > .format > .info > div:hover {
+    box-shadow: 5px 8px 28px rgba(218, 218, 228, 0.644);
+  }
   .index > .placeInOut > .format > .info > div > .title {
     font-size: 24pt;
     line-height: 96px;
