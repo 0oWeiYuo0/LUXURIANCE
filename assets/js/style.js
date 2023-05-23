@@ -5,7 +5,7 @@ window.onscroll = function () {
   var currentScrollPos = window.pageYOffset;
   if (currentScrollPos === 0) {
     // 在最上方時隱藏導覽列
-    navbar.style.top = "-90px";
+    navbar.style.top = "-100px";
   } else {
     // 在其他位置顯示導覽列
     navbar.style.top = "0";
