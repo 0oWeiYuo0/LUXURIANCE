@@ -248,6 +248,7 @@ footer {
       color: black;
       padding: 1rem 3rem;
       border: 1px solid #4eb478;
+      border-radius: 5px;
       transition: all 0.5s ease-in-out;
 
       &:hover {
@@ -654,6 +655,42 @@ footer {
   }
 }
 
+.groupFrame {
+  .member {
+    height: 55vh !important;
+    > img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    > .card-body {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+    }
+  }
+}
+
+.goBack {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+  > a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 3rem;
+    border: 1px solid #4eb478;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    
+    &:hover {
+      background-color: #4eb478;
+      color: white;
+    }
+  }
+}
+
 // 關於我們
 .aboutUs {
   > .about {
@@ -1024,4 +1061,57 @@ footer {
       }
     }
   }
+
+  // 各組資訊 - 分頁
+  .ImageAndInfo {
+    .container {
+      > .row {
+        flex-direction: column-reverse !important;
+      }
+    }
+  }
+
+
+
+
+  // 關於我們
+.aboutUs {
+  > .pageTitle {
+    padding: 30px 0;
+  }
+  > .about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    > .format {
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      > .content {
+        padding-top: 0;
+        font-size: 12pt;
+        > p {
+          font-family: aktiv-grotesk-extended, "Noto Sans TC", "Pingfang TC", 微軟正黑體, "Microsoft JhengHei",
+            sans-serif;
+          &:nth-child(1) {
+            line-height: 32px;
+          }
+          &:nth-child(2) {
+            width: 85%;
+            text-align: center;
+            font-size: 24px;
+            font-weight: 400;
+            color: #4eb478;
+            padding-top: 3rem;
+          }
+        }
+      }
+    }
+  }
+  > .contactUs {
+    padding: 80px 0;
+  }
+}
+
 }

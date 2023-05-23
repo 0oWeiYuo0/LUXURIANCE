@@ -215,6 +215,7 @@ footer > .footerFormat > .copyright {
   color: black;
   padding: 1rem 3rem;
   border: 1px solid #4eb478;
+  border-radius: 5px;
   transition: all 0.5s ease-in-out;
 }
 .contactUs > .format > .followBtn:hover {
@@ -553,6 +554,39 @@ footer > .footerFormat > .copyright {
   width: 33.33% !important;
 }
 
+.groupFrame .member {
+  height: 55vh !important;
+}
+.groupFrame .member > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.groupFrame .member > .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.goBack {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
+.goBack > a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 3rem;
+  border: 1px solid #4eb478;
+  border-radius: 5px;
+  transition: all 0.5s ease-in-out;
+}
+.goBack > a:hover {
+  background-color: #4eb478;
+  color: white;
+}
+
 .aboutUs > .about {
   width: 100%;
   display: flex;
@@ -820,5 +854,43 @@ footer > .footerFormat > .copyright {
   }
   .groupInformation > .group > .groupBtn > div > div > p {
     font-size: 8pt;
+  }
+  .ImageAndInfo .container > .row {
+    flex-direction: column-reverse !important;
+  }
+  .aboutUs > .pageTitle {
+    padding: 30px 0;
+  }
+  .aboutUs > .about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .aboutUs > .about > .format {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .aboutUs > .about > .format > .content {
+    padding-top: 0;
+    font-size: 12pt;
+  }
+  .aboutUs > .about > .format > .content > p {
+    font-family: aktiv-grotesk-extended, "Noto Sans TC", "Pingfang TC", 微軟正黑體, "Microsoft JhengHei", sans-serif;
+  }
+  .aboutUs > .about > .format > .content > p:nth-child(1) {
+    line-height: 32px;
+  }
+  .aboutUs > .about > .format > .content > p:nth-child(2) {
+    width: 85%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #4eb478;
+    padding-top: 3rem;
+  }
+  .aboutUs > .contactUs {
+    padding: 80px 0;
   }
 }/*# sourceMappingURL=style.css.map */
