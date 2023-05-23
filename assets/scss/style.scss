@@ -707,3 +707,22 @@ footer {
     padding: 80px 0;
   }
 }
+
+@media (max-width: 1440px) {
+  .aboutUs {
+    > .about {
+      > .format {
+        > .content {
+          padding-top: 1rem;
+          > p {
+            &:nth-child(2) {
+              width: 97%;
+              padding-top: 2rem;
+            }
+          }
+        }
+  
+      }
+    }
+  }
+}

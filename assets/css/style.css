@@ -588,4 +588,14 @@ footer > .footerFormat > .copyright {
 }
 .aboutUs > .contactUs {
   padding: 80px 0;
+}
+
+@media (max-width: 1440px) {
+  .aboutUs > .about > .format > .content {
+    padding-top: 1rem;
+  }
+  .aboutUs > .about > .format > .content > p:nth-child(2) {
+    width: 97%;
+    padding-top: 2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
