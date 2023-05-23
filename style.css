@@ -1,0 +1,74 @@
+.intotext{
+  color: white;
+  font-size: 14pt;
+}
+.member{
+  margin: 10px;
+}
+
+.serchbuttonword{
+  color: white;
+  font-size: 10pt;
+}
+
+.ImageAndInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: black;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+  color: white;
+  
+}
+
+.serchlist{
+  background-color: black;
+}
+.ImageAndInfo .content {
+
+  font-size: 14pt;
+  line-height: 40px;
+}
+
+.ImageAndInfo .grouplogo {
+
+width: 130%;
+
+}
+
+.infogap{
+  gap: 70px;
+}
+
+.serch .serchbutton{
+  display: inline-block;
+}
+
+.serch .serchbutton:hover{
+  background-color: #ffffff;
+  color: black;
+}
+.search-container {
+  display: flex;
+}
+
+.search-input, .search-button {
+  height: 36px; /* 自定義高度，可根據需要調整 */
+}
+
+.search-input {
+  flex-grow: 0; /* 讓搜尋框佔據剩餘寬度 */
+  border: 1px solid #ccc; /* 自定義邊框樣式，可根據需要調整 */
+  padding: 6px 10px; /* 自定義內邊距，可根據需要調整 */
+}
+
+.search-button {
+  background-color: #f1f1f1; /* 自定義背景顏色，可根據需要調整 */
+  border: none; /* 移除按鈕邊框 */
+  padding: 6px 10px; /* 自定義內邊距，可根據需要調整 */
+}
