@@ -738,6 +738,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 10px;
         > .title {
           font-size: 20pt;
           color: #fff;
@@ -1006,9 +1007,13 @@ footer {
           > div {
             width: 33.33% !important;
             > h5 {
+              font-size: 12pt;
               overflow: hidden;
               text-overflow: ellipsis;
               white-space: nowrap;
+            }
+            > p {
+              font-size: 8pt;
             }
           }
         }

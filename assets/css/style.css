@@ -609,6 +609,7 @@ footer > .footerFormat > .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
   }
   header .navbar .format > .title {
     font-size: 20pt;
@@ -808,8 +809,12 @@ footer > .footerFormat > .copyright {
     width: 33.33% !important;
   }
   .groupInformation > .group > .groupBtn > div > div > h5 {
+    font-size: 12pt;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+  .groupInformation > .group > .groupBtn > div > div > p {
+    font-size: 8pt;
   }
 }/*# sourceMappingURL=style.css.map */
