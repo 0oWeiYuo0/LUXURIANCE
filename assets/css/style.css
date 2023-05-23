@@ -726,23 +726,24 @@ footer > .footerFormat > .copyright {
   .index > .contactUs {
     padding: 30px 0 50px 0;
   }
-  .groupInformation > .search {
-    width: 100%;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-  }
   .groupInformation > .search > .searchlist {
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .groupInformation > .search > .searchlist > .searchBtn {
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0;
   }
   .groupInformation > .search > .searchlist > .searchBtn > .searchbutton {
-    width: 15%;
+    width: 100%;
     display: inline-block;
+    padding: 8px 0;
     transition: all 0.5s ease-in-out;
   }
   .groupInformation > .search > .searchlist > .searchBtn > .searchbutton:hover {
@@ -750,22 +751,12 @@ footer > .footerFormat > .copyright {
     color: black;
   }
   .groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
-    font-size: 12pt;
-    color: white;
+    font-size: 8pt;
   }
   .groupInformation > .search > .searchlist > .searchInput {
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-  }
-  .groupInformation > .search > .searchlist > .searchInput > input {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    outline: none;
-  }
-  .groupInformation > .search > .searchlist > .searchInput > button {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
+    justify-content: center;
   }
   .groupInformation > .groupInformationTitle {
     padding-top: 60px;
