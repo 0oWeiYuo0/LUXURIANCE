@@ -325,6 +325,7 @@ footer > .footerFormat > .copyright {
 .index > .LUXURIANCE > .format > .info > div > .text {
   font-size: 20pt;
 }
+
 .exhibition > .exhibitionTitle {
   padding: 60px 0;
 }
@@ -597,5 +598,215 @@ footer > .footerFormat > .copyright {
   .aboutUs > .about > .format > .content > p:nth-child(2) {
     width: 97%;
     padding-top: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  header .navbar {
+    top: 0px;
+    width: 425px;
+  }
+  header .navbar .format {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer > .footerFormat > .footerName {
+    width: 40%;
+    font-size: 12pt;
+  }
+  footer > .footerFormat > .goTopBtn {
+    width: 20%;
+  }
+  footer > .footerFormat > .goTopBtn > #gotop {
+    line-height: 30px;
+  }
+  footer > .footerFormat > .copyright {
+    width: 40%;
+    font-size: 12pt;
+  }
+  .banner > #hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/bg-01-01.png") top center;
+    /* background-color: #385243ab; */
+    background-size: cover;
+    position: relative;
+    border-bottom: 1px solid #222;
+  }
+  .banner > #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.247);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .banner > #hero > .hero-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 15px;
+  }
+  .banner > #hero > .hero-container > .logo {
+    margin-left: 5em;
+  }
+  .banner > #hero > .hero-container > .logo > img {
+    width: 50%;
+    height: auto;
+  }
+  .banner > #hero > .hero-container > .info {
+    padding-right: 5em;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .banner > #hero > .hero-container > .info > h1 {
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+  }
+  .banner > #hero > .hero-container > .info > h2 {
+    color: #eee;
+    margin-bottom: 40px;
+    font-size: 8px;
+    text-shadow: 0 0 10px #fff;
+    line-height: 1px;
+    width: 80%;
+  }
+  .banner > #hero > .hero-container > .info > p {
+    color: #fff;
+  }
+  .banner > #hero > .hero-container > .info > a {
+    margin-top: 1rem;
+  }
+  .banner > #hero > .hero-container > .info > .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 5px 14px;
+    border-radius: 5px;
+    transition: 0.5s;
+    border: 2px solid #4eb478;
+    color: #fff;
+    text-decoration: none;
+  }
+  .banner > #hero > .hero-container > .info > .btn-get-started:hover {
+    background: #4eb478;
+    border: 2px solid #4eb478;
+  }
+  .index > section > .format {
+    width: 80%;
+  }
+  .index > .indexTitle {
+    padding: 60px 0;
+  }
+  .index > .indexTitle > .title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  .index > .indexTitle > .title > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #4eb478;
+    position: relative;
+    z-index: 2;
+  }
+  .index > .indexTitle > .title > span {
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .index > .sort {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .index > .sort > .format {
+    display: flex;
+    justify-content: space-around;
+  }
+  .index > .sort > .format > .line {
+    height: 30rem;
+    width: 3px;
+    background-color: #4eb478;
+    transform: rotate(30deg);
+  }
+  .index > .sort > .format > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 5rem;
+  }
+  .index > .sort > .format > div > div {
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
+  }
+  .index > .sort > .format > div > div > img {
+    width: 25%;
+  }
+  .index > .LUXURIANCE {
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  .index > .LUXURIANCE > .format {
+    display: flex;
+    justify-content: center;
+  }
+  .index > .LUXURIANCE > .format > .info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  .index > .LUXURIANCE > .format > .info > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 1rem;
+    line-height: 10rem;
+    transition: all 0.2s ease-in-out;
+    border: 0.5px solid transparent;
+  }
+  .index > .LUXURIANCE > .format > .info > div:hover {
+    box-shadow: 5px 8px 28px rgba(23, 23, 36, 0.1);
+  }
+  .index > .LUXURIANCE > .format > .info > div > .title {
+    font-size: 32pt;
+    font-weight: 600;
+  }
+  .index > .LUXURIANCE > .format > .info > div > .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgb(209, 209, 209);
+  }
+  .index > .LUXURIANCE > .format > .info > div > .text {
+    font-size: 20pt;
   }
 }/*# sourceMappingURL=style.css.map */
