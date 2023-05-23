@@ -167,42 +167,15 @@ footer > .footerFormat > .copyright {
   border: 2px solid #4eb478;
 }
 
-.aboutUs {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.pageTitle {
   padding: 60px 0;
 }
-.aboutUs > .format {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-}
-.aboutUs > .format > .followBtn {
-  text-decoration: none;
-  color: black;
-  padding: 1rem 3rem;
-  border: 1px solid #4eb478;
-  transition: all 0.5s ease-in-out;
-}
-.aboutUs > .format > .followBtn:hover {
-  background-color: #4eb478;
-  color: white;
-}
-
-.index > section > .format {
-  width: 80%;
-}
-.index > .content {
-  padding: 60px 0;
-}
-.index > .content > .title {
+.pageTitle > .title {
   text-align: center;
   padding: 30px 0;
   position: relative;
 }
-.index > .content > .title > h2 {
+.pageTitle > .title > h2 {
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
@@ -212,7 +185,65 @@ footer > .footerFormat > .copyright {
   position: relative;
   z-index: 2;
 }
-.index > .content > .title > span {
+.pageTitle > .title > span {
+  position: absolute;
+  top: 30px;
+  color: #f4f4f4;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 0;
+}
+
+.contactUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0;
+}
+.contactUs > .format {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.contactUs > .format > .followBtn {
+  text-decoration: none;
+  color: black;
+  padding: 1rem 3rem;
+  border: 1px solid #4eb478;
+  transition: all 0.5s ease-in-out;
+}
+.contactUs > .format > .followBtn:hover {
+  background-color: #4eb478;
+  color: white;
+}
+
+.index > section > .format {
+  width: 80%;
+}
+.index > .indexTitle {
+  padding: 60px 0;
+}
+.index > .indexTitle > .title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+.index > .indexTitle > .title > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #4eb478;
+  position: relative;
+  z-index: 2;
+}
+.index > .indexTitle > .title > span {
   position: absolute;
   top: 30px;
   color: #f4f4f4;
@@ -519,4 +550,42 @@ footer > .footerFormat > .copyright {
 }
 .groupInformation > .group > .groupBtn > div > div {
   width: 33.33% !important;
+}
+
+.aboutUs > .about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.aboutUs > .about > .format {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.aboutUs > .about > .format > .title {
+  font-size: 24pt;
+  font-weight: 600;
+  position: relative;
+}
+.aboutUs > .about > .format > .content {
+  padding-top: 3rem;
+  font-size: 18pt;
+}
+.aboutUs > .about > .format > .content > p {
+  font-family: aktiv-grotesk-extended, "Noto Sans TC", "Pingfang TC", 微軟正黑體, "Microsoft JhengHei", sans-serif;
+}
+.aboutUs > .about > .format > .content > p:nth-child(1) {
+  line-height: 60px;
+}
+.aboutUs > .about > .format > .content > p:nth-child(2) {
+  width: 85%;
+  text-align: right;
+  font-size: 80px;
+  font-weight: 400;
+  color: #4eb478;
+  padding-top: 3rem;
+}
+.aboutUs > .contactUs {
+  padding: 80px 0;
 }/*# sourceMappingURL=style.css.map */
