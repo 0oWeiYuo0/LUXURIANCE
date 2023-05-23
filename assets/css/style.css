@@ -285,22 +285,22 @@ footer > .footerFormat > .copyright {
 .index > .sort > .format > div > div > img {
   width: 25%;
 }
-.index > .LUXURIANCE {
+.index > .placeInOut {
   display: flex;
   justify-content: center;
   padding: 60px 0;
 }
-.index > .LUXURIANCE > .format {
+.index > .placeInOut > .format {
   display: flex;
   justify-content: center;
 }
-.index > .LUXURIANCE > .format > .info {
+.index > .placeInOut > .format > .info {
   width: 100%;
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-.index > .LUXURIANCE > .format > .info > div {
+.index > .placeInOut > .format > .info > div {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -310,19 +310,19 @@ footer > .footerFormat > .copyright {
   transition: all 0.2s ease-in-out;
   border: 0.5px solid transparent;
 }
-.index > .LUXURIANCE > .format > .info > div:hover {
+.index > .placeInOut > .format > .info > div:hover {
   box-shadow: 5px 8px 28px rgba(23, 23, 36, 0.1);
 }
-.index > .LUXURIANCE > .format > .info > div > .title {
+.index > .placeInOut > .format > .info > div > .title {
   font-size: 32pt;
   font-weight: 600;
 }
-.index > .LUXURIANCE > .format > .info > div > .line {
+.index > .placeInOut > .format > .info > div > .line {
   width: 100%;
   height: 1px;
   background-color: rgb(209, 209, 209);
 }
-.index > .LUXURIANCE > .format > .info > div > .text {
+.index > .placeInOut > .format > .info > div > .text {
   font-size: 20pt;
 }
 
@@ -666,78 +666,10 @@ footer > .footerFormat > .copyright {
     font-size: 24px;
   }
   .banner > #hero > .hero-container > .info > h2 {
-    font-size: 11px;
-  }
-  .banner > #hero > .hero-container > .info > p {
-    color: #fff;
-  }
-  .banner > #hero > .hero-container > .info > a {
-    margin-top: 1rem;
-  }
-  .banner > #hero > .hero-container > .info > .btn-get-started {
-    font-family: "Raleway", sans-serif;
-    font-weight: 500;
     font-size: 12px;
-    letter-spacing: 2px;
-    display: inline-block;
-    padding: 5px 14px;
-    border-radius: 5px;
-    transition: 0.5s;
-    border: 2px solid #4eb478;
-    color: #fff;
-    text-decoration: none;
-  }
-  .banner > #hero > .hero-container > .info > .btn-get-started:hover {
-    background: #4eb478;
-    border: 2px solid #4eb478;
-  }
-  .index > section > .format {
-    width: 80%;
-  }
-  .index > .indexTitle {
-    padding: 60px 0;
-  }
-  .index > .indexTitle > .title {
-    text-align: center;
-    padding: 30px 0;
-    position: relative;
-  }
-  .index > .indexTitle > .title > h2 {
-    font-size: 32px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 0;
-    color: #4eb478;
-    position: relative;
-    z-index: 2;
-  }
-  .index > .indexTitle > .title > span {
-    position: absolute;
-    top: 30px;
-    color: #f4f4f4;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    font-weight: 700;
-    font-size: 52px;
-    text-transform: uppercase;
-    line-height: 0;
-  }
-  .index > .sort {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .index > .sort > .format {
-    display: flex;
-    justify-content: space-around;
   }
   .index > .sort > .format > .line {
-    height: 30rem;
-    width: 3px;
-    background-color: #4eb478;
-    transform: rotate(30deg);
+    height: 0;
   }
   .index > .sort > .format > div {
     display: flex;
@@ -754,44 +686,34 @@ footer > .footerFormat > .copyright {
   .index > .sort > .format > div > div > img {
     width: 25%;
   }
-  .index > .LUXURIANCE {
-    display: flex;
-    justify-content: center;
-    padding: 60px 0;
+  .index > .placeInOut {
+    padding: 30px 0 0 0;
   }
-  .index > .LUXURIANCE > .format {
-    display: flex;
-    justify-content: center;
-  }
-  .index > .LUXURIANCE > .format > .info {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-  .index > .LUXURIANCE > .format > .info > div {
+  .index > .placeInOut > .format > .info {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5rem 1rem;
-    line-height: 10rem;
-    transition: all 0.2s ease-in-out;
-    border: 0.5px solid transparent;
+    justify-content: center;
+    gap: 30px;
   }
-  .index > .LUXURIANCE > .format > .info > div:hover {
-    box-shadow: 5px 8px 28px rgba(23, 23, 36, 0.1);
+  .index > .placeInOut > .format > .info > div {
+    padding: 2rem 1rem;
   }
-  .index > .LUXURIANCE > .format > .info > div > .title {
-    font-size: 32pt;
-    font-weight: 600;
+  .index > .placeInOut > .format > .info > div > .title {
+    font-size: 24pt;
+    line-height: 96px;
   }
-  .index > .LUXURIANCE > .format > .info > div > .line {
-    width: 100%;
+  .index > .placeInOut > .format > .info > div > .line {
+    width: 50%;
     height: 1px;
-    background-color: rgb(209, 209, 209);
   }
-  .index > .LUXURIANCE > .format > .info > div > .text {
-    font-size: 20pt;
+  .index > .placeInOut > .format > .info > div > .text {
+    font-size: 16pt;
+    text-align: center;
+    line-height: 64px;
+  }
+  .index > .contactUs {
+    padding: 30px 0 50px 0;
   }
 }/*# sourceMappingURL=style.css.map */
