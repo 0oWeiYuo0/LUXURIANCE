@@ -726,4 +726,99 @@ footer > .footerFormat > .copyright {
   .index > .contactUs {
     padding: 30px 0 50px 0;
   }
+  .groupInformation > .search {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .groupInformation > .search > .searchlist {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn {
+    width: 50%;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbutton {
+    width: 15%;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbutton:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
+    font-size: 12pt;
+    color: white;
+  }
+  .groupInformation > .search > .searchlist > .searchInput {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .groupInformation > .search > .searchlist > .searchInput > input {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+  }
+  .groupInformation > .search > .searchlist > .searchInput > button {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  .groupInformation > .groupInformationTitle {
+    padding-top: 60px;
+  }
+  .groupInformation > .groupInformationTitle > .title {
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+  }
+  .groupInformation > .groupInformationTitle > .title > h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #4eb478;
+    position: relative;
+    z-index: 2;
+  }
+  .groupInformation > .groupInformationTitle > .title > span {
+    position: absolute;
+    top: 30px;
+    color: #f4f4f4;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  .groupInformation > .group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .groupInformation > .group > .groupBtn {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .groupInformation > .group > .groupBtn > div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .groupInformation > .group > .groupBtn > div > div {
+    width: 33.33% !important;
+  }
+  .groupInformation > .group > .groupBtn > div > div > h5 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }/*# sourceMappingURL=style.css.map */
