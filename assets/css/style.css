@@ -676,6 +676,9 @@ footer > .footerFormat > .copyright {
   .banner > #hero > .hero-container > .info > h2 {
     font-size: 12px;
   }
+  .banner > #hero > .hero-container > .info > .btn-get-started {
+    font-size: 10pt;
+  }
   .index > .sort > .format > .line {
     height: 0;
   }

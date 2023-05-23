@@ -831,8 +831,11 @@ footer {
           }
 
           > h2 {
-            // size 22 ->
+            // size 22 -> 12
             font-size: 12px;
+          }
+          > .btn-get-started {
+            font-size: 10pt;
           }
         }
       }
