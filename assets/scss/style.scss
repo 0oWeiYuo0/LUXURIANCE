@@ -1256,9 +1256,10 @@ footer {
     }
 
     >.map {
-      display: flex;
-      justify-content: center;
-      padding-top: 60px;
+      width: 100%;
+      > iframe {
+        width: 320px;
+      }
     }
   }
 
