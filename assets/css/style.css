@@ -881,6 +881,13 @@ footer > .footerFormat > .copyright {
   .groupMember .col-3 {
     width: 50% !important;
   }
+  .goBack {
+    margin: 30px 0;
+  }
+  .goBack > a {
+    padding: 0.5rem 1.5rem;
+    font-size: 10pt;
+  }
   .aboutUs > .pageTitle {
     padding: 30px 0;
   }
