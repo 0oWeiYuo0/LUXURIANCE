@@ -1067,11 +1067,36 @@ footer {
     .container {
       > .row {
         flex-direction: column-reverse !important;
+        > div {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 0px;
+          > .title {
+            padding-bottom: 3rem;
+            > h2 {
+              font-size: 16pt !important;
+              text-align: center;
+            }
+          }
+          > .content {
+            font-size: 12pt !important;
+            text-align: left;
+          }
+          > img {
+            width: 100%;
+          }
+        }
       }
     }
   }
 
-
+  // 調整手機col-3 寬度大小
+  .groupMember {
+    .col-3 {
+      width: 50% !important;
+    }
+  }
 
 
   // 關於我們

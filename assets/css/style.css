@@ -858,6 +858,29 @@ footer > .footerFormat > .copyright {
   .ImageAndInfo .container > .row {
     flex-direction: column-reverse !important;
   }
+  .ImageAndInfo .container > .row > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+  }
+  .ImageAndInfo .container > .row > div > .title {
+    padding-bottom: 3rem;
+  }
+  .ImageAndInfo .container > .row > div > .title > h2 {
+    font-size: 16pt !important;
+    text-align: center;
+  }
+  .ImageAndInfo .container > .row > div > .content {
+    font-size: 12pt !important;
+    text-align: left;
+  }
+  .ImageAndInfo .container > .row > div > img {
+    width: 100%;
+  }
+  .groupMember .col-3 {
+    width: 50% !important;
+  }
   .aboutUs > .pageTitle {
     padding: 30px 0;
   }
