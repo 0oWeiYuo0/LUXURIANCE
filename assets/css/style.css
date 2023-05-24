@@ -885,8 +885,8 @@ footer > .footerFormat > .copyright {
   .groupMember .col-3 {
     width: 50% !important;
   }
-  .groupMember .col-3 > div {
-    height: 35vh !important;
+  .groupFrame .member {
+    height: 40vh !important;
   }
   .goBack {
     margin: 30px 0;
@@ -894,6 +894,79 @@ footer > .footerFormat > .copyright {
   .goBack > a {
     padding: 0.5rem 1.5rem;
     font-size: 10pt;
+  }
+  .exhibition > .fairInOut > .format {
+    display: flex;
+    flex-direction: column;
+  }
+  .exhibition > .fairInOut > .format > .aboutImg {
+    width: 100%;
+  }
+  .exhibition > .fairInOut > .format > .aboutImg > img {
+    width: 100%;
+  }
+  .exhibition > .fairInOut > .format > .aboutText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > h3 {
+    font-weight: 700;
+    font-size: 34px;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo > .aboutPlace {
+    display: flex;
+    gap: 30px;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo > .aboutPlace > .aboutIcon > svg {
+    color: #4eb478;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo > .aboutTime {
+    display: flex;
+    gap: 30px;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo > .aboutTime > .aboutIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .exhibition > .fairInOut > .format > .aboutText > .aboutInfo > .aboutTime > .aboutIcon > svg {
+    color: #4eb478;
+  }
+  .exhibition > .fairIn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  .exhibition > .fairIn > .format {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  .exhibition > .fairIn > .format > .FairIncard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .exhibition > .fairIn > .format > .FairIncard > img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  .exhibition > .map {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
   }
   .aboutUs > .pageTitle {
     padding: 30px 0;

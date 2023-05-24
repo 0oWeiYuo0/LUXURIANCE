@@ -1142,23 +1142,123 @@ footer {
     }
   }
 
-  // 調整手機col-3 寬度大小
+  // 各組資訊 調整手機col-3 寬度大小
   .groupMember {
     .col-3 {
       width: 50% !important;
-      > div {
-        height: 35vh !important;
-      }
     }
   }
 
-  // 按鈕大小
+  .groupFrame {
+    .member {
+      height: 40vh !important;
+    }
+  }
+
+  // 各組資訊 按鈕大小
   .goBack {
     margin: 30px 0;
 
     >a {
       padding: .5rem 1.5rem;
       font-size: 10pt;
+    }
+  }
+
+  // 展場資訊
+  .exhibition {
+    >.fairInOut {
+      >.format {
+        display: flex;
+        flex-direction: column;
+
+        >.aboutImg {
+          width: 100%;
+
+          >img {
+            width: 100%;
+          }
+        }
+
+        >.aboutText {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 30px;
+
+          >h3 {
+            font-weight: 700;
+            font-size: 34px;
+          }
+
+          >.aboutInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            >.aboutPlace {
+              display: flex;
+              gap: 30px;
+
+              >.aboutIcon {
+                >svg {
+                  color: #4eb478;
+                }
+              }
+            }
+
+            >.aboutTime {
+              display: flex;
+              // align-items: center;
+              gap: 30px;
+
+              >.aboutIcon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                >svg {
+                  color: #4eb478;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    >.fairIn {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 60px 0;
+
+      >.format {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+
+        >.FairIncard {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          >img {
+            width: 100%;
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+
+    >.map {
+      display: flex;
+      justify-content: center;
+      padding-top: 60px;
     }
   }
 
@@ -1208,5 +1308,7 @@ footer {
       padding: 80px 0;
     }
   }
+
+
 
 }
