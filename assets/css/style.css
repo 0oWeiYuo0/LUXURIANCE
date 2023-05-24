@@ -395,6 +395,8 @@ footer > .footerFormat > .copyright {
 }
 .exhibition > .fairInOut > .format > .aboutImg {
   width: 40%;
+  display: flex;
+  align-items: center;
 }
 .exhibition > .fairInOut > .format > .aboutImg > img {
   width: 90%;
@@ -634,136 +636,112 @@ footer > .footerFormat > .copyright {
     padding-top: 2rem;
   }
 }
-@media (max-width: 576px) {
-  header .navbar {
-    width: 100%;
+@media (max-width: 1200px) {
+  .index > .sort {
+    padding: 30px 0 0 0;
   }
-  header .navbar .format {
+  .index > .sort > .format > .line {
+    height: 0rem;
+    width: 0px;
+  }
+  .index > .placeInOut {
+    padding: 30px 0;
+  }
+  .index > .placeInOut > .format > .info > div > .title {
+    font-size: 32pt;
+    font-weight: 600;
+  }
+  .index > .placeInOut > .format > .info > div > .text {
+    font-size: 16pt;
+  }
+  .groupInformation > .search {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .groupInformation > .search > .searchlist {
     width: 80%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    justify-content: space-between;
   }
-  header .navbar .format > .title {
-    font-size: 20pt;
-    color: #fff;
-    text-decoration: none;
+  .groupInformation > .search > .searchlist > .searchBtn {
+    width: 80%;
   }
-  header .navbar .format > .link {
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbutton {
+    width: 15%;
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbutton:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
     font-size: 12pt;
+    color: white;
   }
-  footer > .footerFormat > .footerName {
-    width: 40%;
-    font-size: 12pt;
+  .groupInformation > .search > .searchlist > .searchInput {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
   }
-  footer > .footerFormat > .goTopBtn {
-    width: 20%;
-  }
-  footer > .footerFormat > .goTopBtn > #gotop {
-    line-height: 30px;
-  }
-  footer > .footerFormat > .copyright {
-    width: 40%;
-    font-size: 12pt;
-  }
-  .banner > #hero {
+  .groupInformation > .search > .searchlist > .searchInput > input {
     width: 100%;
-    height: 80vh;
-    background: url("../img/bg-01-01.png") top center;
-    /* background-color: #385243ab; */
-    background-size: cover;
-    position: relative;
-    border-bottom: 1px solid #222;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
   }
-  .banner > #hero:before {
-    content: "";
-    background: rgba(0, 0, 0, 0.247);
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
+  .groupInformation > .search > .searchlist > .searchInput > button {
+    width: 30%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+@media (max-width: 993px) {
+  header .navbar .format > .title {
+    font-size: 24pt;
   }
   .banner > #hero > .hero-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 0 15px;
+    padding: 0 60px;
   }
   .banner > #hero > .hero-container > .logo {
     margin-left: 0;
-    width: 50%;
+    width: 35%;
   }
   .banner > #hero > .hero-container > .logo > img {
     width: 90%;
   }
   .banner > #hero > .hero-container > .info {
     padding-right: 0;
-    text-align: center;
   }
   .banner > #hero > .hero-container > .info > h1 {
-    font-size: 24px;
+    font-size: 32px;
   }
   .banner > #hero > .hero-container > .info > h2 {
-    font-size: 12px;
+    font-size: 18px;
   }
   .banner > #hero > .hero-container > .info > .btn-get-started {
-    font-size: 10pt;
+    font-size: 12px;
   }
-  .index > .sort > .format > .line {
-    height: 0;
-  }
-  .index > .sort > .format > div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 5rem;
-  }
-  .index > .sort > .format > div > div {
-    display: flex;
-    justify-content: center;
-    font-size: 20pt;
-  }
-  .index > .sort > .format > div > div > img {
-    width: 25%;
-  }
-  .index > .placeInOut {
+  .index > .sort {
     padding: 30px 0 0 0;
   }
-  .index > .placeInOut > .format > .info {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
+  .index > .placeInOut {
+    padding: 15px 0;
   }
   .index > .placeInOut > .format > .info > div {
-    padding: 2rem 1rem;
-  }
-  .index > .placeInOut > .format > .info > div:hover {
-    box-shadow: 5px 8px 28px rgba(218, 218, 228, 0.644);
+    padding: 3rem 1rem;
   }
   .index > .placeInOut > .format > .info > div > .title {
     font-size: 24pt;
-    line-height: 96px;
-  }
-  .index > .placeInOut > .format > .info > div > .line {
-    width: 50%;
-    height: 1px;
+    font-weight: 600;
   }
   .index > .placeInOut > .format > .info > div > .text {
-    font-size: 16pt;
-    text-align: center;
-    line-height: 64px;
-    width: 80%;
-  }
-  .index > .contactUs {
-    padding: 30px 0 50px 0;
+    font-size: 12pt;
   }
   .groupInformation > .search > .searchlist {
     width: 100%;
@@ -790,7 +768,7 @@ footer > .footerFormat > .copyright {
     color: black;
   }
   .groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
-    font-size: 8pt;
+    font-size: 12pt;
   }
   .groupInformation > .search > .searchlist > .searchInput {
     width: 100%;
@@ -854,6 +832,137 @@ footer > .footerFormat > .copyright {
   }
   .groupInformation > .group > .groupBtn > div > div > p {
     font-size: 8pt;
+  }
+}
+@media (max-width: 576px) {
+  header .navbar {
+    width: 100%;
+  }
+  header .navbar .format {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  header .navbar .format > .title {
+    font-size: 20pt;
+    color: #fff;
+    text-decoration: none;
+  }
+  header .navbar .format > .link {
+    font-size: 12pt;
+  }
+  footer > .footerFormat > .footerName {
+    width: 40%;
+    font-size: 12pt;
+  }
+  footer > .footerFormat > .goTopBtn {
+    width: 20%;
+  }
+  footer > .footerFormat > .goTopBtn > #gotop {
+    line-height: 30px;
+  }
+  footer > .footerFormat > .copyright {
+    width: 40%;
+    font-size: 12pt;
+  }
+  .banner > #hero {
+    width: 100%;
+    height: 80vh;
+    background: url("../img/bg-01-01.png") top center;
+    /* background-color: #385243ab; */
+    background-size: cover;
+    position: relative;
+    border-bottom: 1px solid #222;
+  }
+  .banner > #hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.247);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  .banner > #hero > .hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 60px;
+  }
+  .banner > #hero > .hero-container > .logo {
+    margin-left: 0;
+    width: 50%;
+  }
+  .banner > #hero > .hero-container > .logo > img {
+    width: 90%;
+  }
+  .banner > #hero > .hero-container > .info {
+    text-align: center;
+  }
+  .banner > #hero > .hero-container > .info > h1 {
+    font-size: 24px;
+  }
+  .banner > #hero > .hero-container > .info > h2 {
+    font-size: 12px;
+  }
+  .banner > #hero > .hero-container > .info > .btn-get-started {
+    font-size: 10pt;
+  }
+  .index > .sort > .format > .line {
+    height: 0;
+  }
+  .index > .sort > .format > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 5rem;
+  }
+  .index > .sort > .format > div > div {
+    display: flex;
+    justify-content: center;
+    font-size: 20pt;
+  }
+  .index > .sort > .format > div > div > img {
+    width: 25%;
+  }
+  .index > .placeInOut {
+    padding: 30px 0 0 0;
+  }
+  .index > .placeInOut > .format > .info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  .index > .placeInOut > .format > .info > div {
+    padding: 2rem 1rem;
+  }
+  .index > .placeInOut > .format > .info > div:hover {
+    box-shadow: 5px 8px 28px rgba(218, 218, 228, 0.644);
+  }
+  .index > .placeInOut > .format > .info > div > .title {
+    font-size: 24pt;
+    line-height: 96px;
+  }
+  .index > .placeInOut > .format > .info > div > .line {
+    width: 50%;
+    height: 1px;
+  }
+  .index > .placeInOut > .format > .info > div > .text {
+    font-size: 16pt;
+    text-align: center;
+    line-height: 64px;
+    width: 80%;
+  }
+  .index > .contactUs {
+    padding: 30px 0 50px 0;
   }
   .ImageAndInfo .container > .row {
     flex-direction: column-reverse !important;
@@ -944,7 +1053,7 @@ footer > .footerFormat > .copyright {
     padding-top: 30px;
   }
   .exhibition > .map > iframe {
-    width: 320px;
+    width: 420px;
   }
   .aboutUs > .pageTitle {
     padding: 30px 0;
@@ -971,7 +1080,7 @@ footer > .footerFormat > .copyright {
     line-height: 32px;
   }
   .aboutUs > .about > .format > .content > p:nth-child(2) {
-    width: 85%;
+    width: 108%;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -980,5 +1089,11 @@ footer > .footerFormat > .copyright {
   }
   .aboutUs > .contactUs {
     padding: 80px 0;
+  }
+}
+@media (max-width: 420px) {
+  .map > iframe {
+    width: 320px !important;
+    height: 240px !important;
   }
 }/*# sourceMappingURL=style.css.map */

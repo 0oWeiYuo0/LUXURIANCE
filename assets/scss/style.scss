@@ -469,6 +469,8 @@ footer {
 
       >.aboutImg {
         width: 40%;
+        display: flex;
+        align-items: center;
 
         >img {
           width: 90%;
@@ -784,6 +786,293 @@ footer {
   }
 }
 
+@media (max-width: 1200px) {
+  .index {
+    >.sort {
+      padding: 30px 0 0 0;
+
+      >.format {
+        >.line {
+          height: 0rem;
+          width: 0px;
+        }
+      }
+    }
+
+    >.placeInOut {
+      padding: 30px 0;
+
+      >.format {
+        >.info {
+
+          // in, out
+          >div {
+            >.title {
+              font-size: 32pt;
+              font-weight: 600;
+            }
+
+            >.text {
+              font-size: 16pt;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .groupInformation {
+    >.search {
+      width: 100%;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+
+      >.searchlist {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+        >.searchBtn {
+          width: 80%;
+
+          >.searchbutton {
+            // 帶商議 寬度調整
+            width: 15%;
+            display: inline-block;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+              background-color: #ffffff;
+              color: black;
+            }
+          }
+
+          >.searchbuttonText {
+            font-size: 12pt;
+            color: white;
+          }
+        }
+
+        >.searchInput {
+          width: 30%;
+          display: flex;
+          justify-content: flex-end;
+
+          >input {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+            outline: none;
+          }
+
+          >button {
+            width: 30%;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 993px) {
+
+  // header
+  header {
+    .navbar {
+      .format {
+        >.title {
+          font-size: 24pt;
+        }
+      }
+    }
+  }
+
+  // 共用 Banner
+  .banner {
+    >#hero {
+      >.hero-container {
+        // 排序更改垂直排序
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 60px;
+
+        >.logo {
+          // 取消margin
+          margin-left: 0;
+          width: 35%;
+
+          >img {
+            width: 90%;
+          }
+        }
+
+        >.info {
+          // 取消padding
+          padding-right: 0;
+
+          >h1 {
+            // size 48 -> 32
+            font-size: 32px;
+          }
+
+          >h2 {
+            // size 22 -> 18
+            font-size: 18px;
+          }
+
+          >.btn-get-started {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .index {
+    >.sort {
+      padding: 30px 0 0 0;
+    }
+
+    >.placeInOut {
+      padding: 15px 0;
+
+      >.format {
+        >.info {
+          // in, out
+          >div {
+            padding: 3rem 1rem;
+            >.title {
+              font-size: 24pt;
+              font-weight: 600;
+            }
+
+            >.text {
+              font-size: 12pt;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 各組資訊
+  .groupInformation {
+    >.search {
+      >.searchlist {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        >.searchBtn {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          margin: 1rem 0;
+
+          >.searchbutton {
+            // 寬度調整
+            width: 100%;
+            display: inline-block;
+            padding: 8px 0;
+            transition: all 0.5s ease-in-out;
+
+            &:hover {
+              background-color: #ffffff;
+              color: black;
+            }
+          }
+
+          >.searchbuttonText {
+            font-size: 12pt;
+          }
+        }
+
+        >.searchInput {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+
+    >.groupInformationTitle {
+      padding-top: 60px;
+
+      >.title {
+        text-align: center;
+        padding: 30px 0;
+        position: relative;
+
+        >h2 {
+          font-size: 32px;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+          padding-bottom: 0;
+          color: #4eb478;
+          position: relative;
+          z-index: 2;
+        }
+
+        >span {
+          position: absolute;
+          top: 30px;
+          color: #f4f4f4;
+          left: 0;
+          right: 0;
+          z-index: 1;
+          font-weight: 700;
+          font-size: 52px;
+          text-transform: uppercase;
+          line-height: 0;
+        }
+      }
+    }
+
+    >.group {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      >.groupBtn {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+
+        >div {
+          width: 100%;
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: wrap;
+
+          >div {
+            width: 33.33% !important;
+
+            >h5 {
+              font-size: 12pt;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+
+            >p {
+              font-size: 8pt;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 // 手機畫面 寬度
 @media (max-width: 576px) {
 
@@ -872,7 +1161,7 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 0 15px;
+        padding: 0 60px;
 
         >.logo {
           // 取消margin
@@ -885,8 +1174,6 @@ footer {
         }
 
         >.info {
-          // 取消padding
-          padding-right: 0;
           // 文字置中排序
           text-align: center;
 
@@ -991,117 +1278,7 @@ footer {
     }
   }
 
-  // 各組資訊
-  .groupInformation {
-    >.search {
-      >.searchlist {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-        >.searchBtn {
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-          margin: 1rem 0;
-
-          >.searchbutton {
-            // 寬度調整
-            width: 100%;
-            display: inline-block;
-            padding: 8px 0;
-            transition: all 0.5s ease-in-out;
-
-            &:hover {
-              background-color: #ffffff;
-              color: black;
-            }
-          }
-
-          >.searchbuttonText {
-            font-size: 8pt;
-          }
-        }
-
-        >.searchInput {
-          width: 100%;
-          display: flex;
-          justify-content: center;
-        }
-      }
-    }
-
-    >.groupInformationTitle {
-      padding-top: 60px;
-
-      >.title {
-        text-align: center;
-        padding: 30px 0;
-        position: relative;
-
-        >h2 {
-          font-size: 32px;
-          font-weight: 700;
-          text-transform: uppercase;
-          margin-bottom: 20px;
-          padding-bottom: 0;
-          color: #4eb478;
-          position: relative;
-          z-index: 2;
-        }
-
-        >span {
-          position: absolute;
-          top: 30px;
-          color: #f4f4f4;
-          left: 0;
-          right: 0;
-          z-index: 1;
-          font-weight: 700;
-          font-size: 52px;
-          text-transform: uppercase;
-          line-height: 0;
-        }
-      }
-    }
-
-    >.group {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-
-      >.groupBtn {
-        width: 80%;
-        display: flex;
-        justify-content: flex-start;
-
-        >div {
-          width: 100%;
-          display: flex;
-          justify-content: flex-start;
-          flex-wrap: wrap;
-
-          >div {
-            width: 33.33% !important;
-
-            >h5 {
-              font-size: 12pt;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              white-space: nowrap;
-            }
-
-            >p {
-              font-size: 8pt;
-            }
-          }
-        }
-      }
-    }
-  }
 
   // 各組資訊 - 分頁
   .ImageAndInfo {
@@ -1169,6 +1346,7 @@ footer {
   .exhibition {
     >.fairInOut {
       padding: 30px 0;
+
       >.format {
         display: flex;
         flex-direction: column;
@@ -1223,8 +1401,9 @@ footer {
     >.map {
       width: 100%;
       padding-top: 30px;
-      > iframe {
-        width: 320px;
+
+      >iframe {
+        width: 420px;
       }
     }
   }
@@ -1259,7 +1438,7 @@ footer {
             }
 
             &:nth-child(2) {
-              width: 85%;
+              width: 108%;
               text-align: center;
               font-size: 24px;
               font-weight: 400;
@@ -1276,6 +1455,13 @@ footer {
     }
   }
 
+}
 
-
+@media (max-width: 420px) {
+  .map {
+    >iframe {
+      width: 320px !important;
+      height: 240px !important;
+    }
+  }
 }
