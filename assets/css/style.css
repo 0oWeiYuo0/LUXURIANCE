@@ -981,6 +981,9 @@ footer > .footerFormat > .copyright {
   .index > .contactUs {
     padding: 30px 0 50px 0;
   }
+  .groupInformation > .search > .searchlist > .searchBtn > .searchbuttonText {
+    font-size: 10pt;
+  }
   .ImageAndInfo .container > .row {
     flex-direction: column-reverse !important;
   }
