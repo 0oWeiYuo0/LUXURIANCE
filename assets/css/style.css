@@ -636,7 +636,7 @@ footer > .footerFormat > .copyright {
 }
 @media (max-width: 576px) {
   header .navbar {
-    width: 425px;
+    width: 100%;
   }
   header .navbar .format {
     width: 80%;
@@ -867,6 +867,10 @@ footer > .footerFormat > .copyright {
   .ImageAndInfo .container > .row > div > .title {
     padding-bottom: 3rem;
   }
+  .ImageAndInfo .container > .row > div > .title > h1 {
+    font-size: 16pt !important;
+    text-align: center;
+  }
   .ImageAndInfo .container > .row > div > .title > h2 {
     font-size: 16pt !important;
     text-align: center;
@@ -880,6 +884,9 @@ footer > .footerFormat > .copyright {
   }
   .groupMember .col-3 {
     width: 50% !important;
+  }
+  .groupMember .col-3 > div {
+    height: 35vh !important;
   }
   .goBack {
     margin: 30px 0;
