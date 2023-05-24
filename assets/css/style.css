@@ -627,7 +627,24 @@ footer > .footerFormat > .copyright {
   padding: 80px 0;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1400px) {
+  .index > .sort {
+    padding: 30px 0 0 0;
+  }
+  .index > .sort > .format > .line {
+    height: 0rem;
+    width: 0px;
+  }
+  .index > .placeInOut {
+    padding: 30px 0;
+  }
+  .index > .placeInOut > .format > .info > div > .title {
+    font-size: 32pt;
+    font-weight: 600;
+  }
+  .index > .placeInOut > .format > .info > div > .text {
+    font-size: 18pt;
+  }
   .aboutUs > .about > .format > .content {
     padding-top: 1rem;
   }
