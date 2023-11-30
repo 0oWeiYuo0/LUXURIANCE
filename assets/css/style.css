@@ -477,7 +477,7 @@ footer > .footerFormat > .copyright {
   justify-content: space-between;
 }
 .groupInformation > .search > .searchlist > .searchBtn {
-  width: 50%;
+  width: 60%;
 }
 .groupInformation > .search > .searchlist > .searchBtn > .searchbutton {
   width: 15%;
@@ -493,7 +493,7 @@ footer > .footerFormat > .copyright {
   color: white;
 }
 .groupInformation > .search > .searchlist > .searchInput {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: flex-end;
 }
